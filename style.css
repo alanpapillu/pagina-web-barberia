@@ -263,6 +263,10 @@ td, th{
         position: static;
     }
 
+    nav a {
+        font-size: 18px;
+    }
+
     .caja, .principal, .mapa-contenido, .contenido-diferenciales, .video {
         width: auto;
     }
@@ -271,8 +275,21 @@ td, th{
         width: 100%;
     }
 
-    .productos li {
-        display: grid;
+    .productos {
+        padding: 30px;
     }
 
+    .productos li {
+        display: grid;
+        margin-top: 10px;
+    }
+
+    .formulario-contacto {
+            width: 382px;
+            margin: 10px;
+    }
+
+    .enviar{
+        width: 265px;
+    }
 }
